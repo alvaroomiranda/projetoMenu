@@ -50,3 +50,16 @@ main header h2::after{
     margin: 0 auto;
     background-color: #c59d5f;
 }
+
+main header .button-container{
+    display: flex;
+    gap: 2.4rem;
+}
+
+main header .button-container button{
+    border-color: 2px solid #c59d5f;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    border-radius: 0.4rem;
+    padding: 0.8rem 1.6rem;
+}
